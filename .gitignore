@@ -1,0 +1,27 @@
+# Build and simulation artifacts
+*.vcd
+*.fst
+*.ghw
+*.lxt
+*.lxt2
+*.out
+*.log
+*.jou
+
+# Synthesis and physical-design generated directories
+openlane/runs/
+openlane/reports/
+openlane/tmp/
+reconstructed-rtl/obj_dir/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
